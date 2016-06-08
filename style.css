@@ -562,26 +562,25 @@ body {
 	margin-right: 5px;
 }
 
-.social-block__icon:last-child {
+.social-icon--linkedin {
 	margin-right: 0;
 }
 
-.social-icon:hover:first-child {
+.social-icon--facebook:hover {
 	background-color: #3b5998;
 }
 
-.social-icon:hover:nth-child(2) {
+.social-icon--twitter:hover {
 	background-color: #55acee;
 }
 
-.social-icon:hover:nth-child(3) {
+.social-icon--google:hover {
 	background-color: #dd4b39;
 }
 
-.social-icon:hover:last-child {
+.social-icon--linkedin:hover {
 	background-color: #0976b4;
 }
-
 
 .clearfix::after {
 	content: '';
