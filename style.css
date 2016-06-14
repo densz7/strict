@@ -4,7 +4,7 @@ body {
 	width: 100%;
 }
 
-a:hover {
+a:hover, a:focus {
 	color: #fff;
 }
 
@@ -26,22 +26,23 @@ a:hover {
 .banner {
 	height: 800px;
 	text-align: center;
+	color: #fff;
 	background-image: url(images/banner_bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-.banner__inner {
-	margin: 0 auto;
-	padding-top: 190px;
-	width: 600px;
-	color: #fff;
+.banner__title {
+	margin-top: 200px;
 }
 
-.banner__title {
-	font-size: 120px;
+.main-title {
+	padding-right: 90px;
 	padding-bottom: 35px;
+	padding-left: 90px;
+	display: inline-block;
+	font-size: 120px;
 	border-bottom: 2px solid #15a4fa;
 }
 
