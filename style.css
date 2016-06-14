@@ -118,27 +118,9 @@ a:hover, a:focus {
 	background-color: #fff;
 }
 
-.feature__inner {
-	margin: 0 auto;
-	padding-top: 65px;
-	width: 1067px;
-}
-
-.column {
-	float: left;
-}
-
-.feature__column-1 {
-	margin-right: 110px;
-	width: 252px;
-}
-.feature__column-2 {
-	margin-right: 75px;
-	width: 300px;
-}
-
-.feature__column-3 {
-	width: 315px;
+.feature__column {
+	margin-top: 60px;
+	margin-bottom: 65px;
 }
 
 .icon {
@@ -178,6 +160,10 @@ a:hover, a:focus {
 
 .title--size {
 	font-size: 22px;
+}
+
+.text__break {
+	display: block;
 }
 
 .text--size {
