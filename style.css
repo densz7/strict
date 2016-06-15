@@ -175,13 +175,8 @@ a:hover, a:focus {
 	height: 900px;
 }
 
-.portfolio__inner {
-	margin: 0 auto;
-	padding-top: 80px;
-	width: 1140px;
-}
-
 .portfolio__title {
+	margin-top: 80px;
 	margin-bottom: 25px;
 }
 
@@ -195,17 +190,12 @@ a:hover, a:focus {
 
 .showcase {
 	position: relative;
-	float: left;
 	width: 360px;
 	height: 260px;
 }
 
-.showcase:nth-child(3), .showcase:nth-child(6), 
-.showcase:nth-child(12), .showcase:nth-child(15) {
-	margin-right: 30px;
-}
-
-.showcase:nth-child(3), .showcase:nth-child(6), .showcase:nth-child(9) {
+.portfolio__showcase {
+	margin: 0 auto;
 	margin-bottom: 30px;
 }
 
@@ -251,8 +241,9 @@ a:hover, a:focus {
 
 .preview {
 	position: absolute;
+	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 550px;
 	z-index: 10;
 	opacity: 0;
 	-webkit-transform: translateX(-2000px);
