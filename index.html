@@ -314,24 +314,48 @@
 		
 		<!--support-->
 		<section class="support">
-			<div class="support__inner">
-				<h2 class="title support__title title--color">Stay with us</h2>
+			<div class="container">
+				<div class="row">
+					<h2 class="title support__title title--color">Stay with us</h2>
+				</div>
 				
-				<p class="text support__text text--mod">We ensure quailty & support</p>
+				<div class="row">
+					<p class="text support__text text--mod">We ensure quailty & support</p>
+				</div>
 				
-				<form class="form clearfix" name="support"  method="post" action="" >
-					<input class="input form__name" name="Name" type="text" placeholder="Full Name" required>
-					
-					<input class="input form__email" name="Email" type="email" placeholder="Email Address" required>
-					
-					<textarea class="input form__message input--height" name="Message" placeholder="Message" required></textarea>
-					
-					<input class="form__check" id="check" name="Subscribe" type="checkbox">
-					
-					<label class="label form__label" for="check">Subscribe Newsletter</label>
-					
-					<input class="button form__button button--size" type="submit" value="Send">
-				</form>
+				<div class="row">
+					<form class="form" name="support"  method="post" action="#">
+						<div class="row">
+							<div class="col-md-12">
+								<input class="form-control input form__name" name="Name" type="text" placeholder="Full Name" required>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-12">
+								<input class="input form__email" name="Email" type="email" placeholder="Email Address" required>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-12">
+								<textarea class="input form__message input--height" name="Message" placeholder="Message" required></textarea>
+							</div>			
+						</div>
+
+						<div class="row">
+							<div class="col-md-5">
+								<input class="form__check" id="check" name="Subscribe" type="checkbox">
+
+								<label class="label form__label" for="check">Subscribe Newsletter</label>
+							</div>
+
+							<div class="col-md-3 col-md-offset-4">
+								<input class="button form__button button--size" type="submit" value="Send">
+							</div>
+						</div>
+					</form>
+				</div>
 			</div>
 		</section>
 		
