@@ -430,27 +430,22 @@ a:hover, a:focus {
 	height: 90px;
 }
 
-.footer__inner {
-	margin: 0 auto;
-	height: 100%;
-	display: table;
-	width: 1140px;
-}
-
 .copyright {
 	font-size: 15px;
 	color: #999;
 }
 
 .footer__copyright {
-	display: table-cell;
-	vertical-align: middle;
+	margin-top: 40px;
 }
 
 .social-block {
-	display: table-cell;
-	text-align: right;
-	vertical-align: middle;
+	width: 185px;
+}
+
+.footer__social-block {
+	margin-top: 25px;
+	float: right;
 }
 
 .social-icon {
