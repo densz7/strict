@@ -294,13 +294,8 @@ a:hover, a:focus {
 	background-size: cover;
 }
 
-.support__inner {
-	margin: 0 auto;
-	padding-top: 75px;
-	width: 555px;
-}
-
 .support__title {
+	margin-top: 75px;
 	margin-bottom: 20px;
 }
 
@@ -318,7 +313,8 @@ a:hover, a:focus {
 }
 
 .form {
-	width: 100%;
+	margin: 0 auto;
+	max-width: 555px;
 }
 
 .input {
