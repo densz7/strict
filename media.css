@@ -63,12 +63,12 @@
 		font-size: 15px;
 	}
 	
-	.showcase__filter {
-		height: 162px;
-	}
-	
 	.icon-plus, .icon-link {
 		font-size: 14px;
+	}
+	
+	.preview {
+		max-height: 162px;
 	}
 	
 	/* support */
@@ -176,12 +176,12 @@
 		font-size: 15px;
 	}
 	
-	.showcase__filter {
-		height: 162px;
-	}
-	
 	.icon-plus, .icon-link {
 		font-size: 14px;
+	}
+	
+	.preview {
+		max-height: 162px;
 	}
 	
 	/* support */
@@ -280,8 +280,8 @@
 		font-size: 15px;
 	}
 	
-	.showcase__filter {
-		height: 162px;
+	.preview {
+		max-height: 162px;
 	}
 	
 	/* support */
@@ -292,9 +292,12 @@
 	.text--mod  {
 		font-size: 15px;
 	}
+
+	.label {
+		margin-bottom: 25px;
+	}
 	
 	.form__button {
-		margin-top: 25px;
 		float: none;
 	}
 	
@@ -369,10 +372,6 @@
 	/* portfolio */
 	.text--font {
 		font-size: 15px;
-	}
-	
-	.showcase__filter {
-		height: 162px;
 	}
 	
 	/* support */
