@@ -5,7 +5,7 @@ var gulp = require('gulp'), // Подключаем плагин gulp
 // Создаем задачу для Stylus
 gulp.task('compile_stylus', function () {
 
-   gulp.src(['src/styles/blocks/header.styl', 'src/styles/blocks/banner.styl', 'src/styles/blocks/pure-design.styl', 'src/styles/blocks/feature.styl', 'src/styles/blocks/portfolio.styl', 'src/styles/blocks/support.styl', 'src/styles/blocks/footer.styl']) // Подаем на вход файлы с расширением .styl из папки src/styles/blocks/ 
+   gulp.src(['src/styles/blocks/style.styl']) // Подаем на вход файлы с расширением .styl из папки src/styles/blocks/ 
   
         .pipe(stylus()) // Запускаем обработчик Stylus, в потоке — style.css    
 	
