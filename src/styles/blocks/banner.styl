@@ -9,41 +9,19 @@
 	
 	&__title
 		margin-top 200px
+		padding-right 90px
+		padding-bottom 35px
+		padding-left @padding-right
+		display inline-block
+		font-size 120px
+		border-bottom 2px solid $blue
 
-.main-title
-	padding-right 90px
-	padding-bottom 35px
-	padding-left @padding-right
-	display inline-block
-	font-size 120px
-	border-bottom 2px solid $blue
+	&__slogan
+		margin 38px 0 60px 0
+		font-size 20px
 
-.banner__slogan
-	margin 38px 0 60px 0
-	font-size 20px
-
-.button
-	width 180px
-	height (@width / 3)
-	font-size 18px
-	color $white
-	background-color transparent
-	border 1px solid $blue
-	border-radius 2px
-	outline none
-	-webkit-transition all .4s ease
-	transition all .4s ease
-	
-	&:hover
-		background-color $blue
-		
-	&--font:hover
-		font-size (@font-size + 2)
-
-.banner__angle-down
-	margin-top 160px
-	display inline-block
-
-.angle-down
-	font-size 35px
-	color $white
+	&__angle-down
+		margin-top 160px
+		display inline-block
+		font-size 35px
+		color $white

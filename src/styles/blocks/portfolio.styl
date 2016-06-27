@@ -9,9 +9,6 @@
 	&__text
 		margin-bottom 80px
 
-.text--font
-	font-size $font-size-text
-
 .showcase
 	position relative
 	max-width 360px
@@ -74,17 +71,15 @@
 	-webkit-transition all .8s ease
 	transform @-webkit-transition
 	
-.close
-	padding 10px 5px
-	font-size 20px
-	background-color $blue
-	color $white
-	cursor pointer
-
-.preview__close
-	position absolute
-	top 0
-	right 0
+	&__close
+		position absolute
+		top 0
+		right 0
+		padding 10px 5px
+		font-size 20px
+		background-color $blue
+		color $white
+		cursor pointer
 
 .check
 	display none
