@@ -63,10 +63,6 @@
 		font-size: 15px;
 	}
 	
-	.showcase__filter {
-		height: 162px;
-	}
-	
 	.icon-plus, .icon-link {
 		font-size: 14px;
 	}
@@ -176,10 +172,6 @@
 		font-size: 15px;
 	}
 	
-	.showcase__filter {
-		height: 162px;
-	}
-	
 	.icon-plus, .icon-link {
 		font-size: 14px;
 	}
@@ -280,10 +272,6 @@
 		font-size: 15px;
 	}
 	
-	.showcase__filter {
-		height: 162px;
-	}
-	
 	/* support */
 	.form {
 		text-align: center;	
@@ -369,10 +357,6 @@
 	/* portfolio */
 	.text--font {
 		font-size: 15px;
-	}
-	
-	.showcase__filter {
-		height: 162px;
 	}
 	
 	/* support */
