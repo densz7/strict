@@ -1,7 +1,7 @@
 @media(min-width: 0px) and (max-width: 320px) {
 	
 	/* banner */
-	.main-title {
+	.banner__title {
 		padding-right: 7px;
 		padding-left: 7px;
 		font-size: 59px;
@@ -110,7 +110,7 @@
 @media(min-width: 321px) and (max-width: 480px) {
 	
 	/* banner */
-	.main-title {
+	.banner__title {
 		padding-right: 18px;
 		padding-left: 18px;
 		font-size: 80px;
@@ -220,7 +220,7 @@
 @media(min-width: 481px) and (max-width: 768px) {
 	
 	/* banner */
-	.main-title {
+	.banner__title {
 		padding-right: 35px;
 		padding-left: 35px;
 		font-size: 95px;
@@ -307,7 +307,7 @@
 @media(min-width: 769px) and (max-width: 992px) {
 	
 	/* banner */
-	.main-title {
+	.banner__title {
 		padding-right: 35px;
 		padding-left: 35px;
 		font-size: 95px;
