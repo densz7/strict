@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My First Gulp Project",
   "main": "angle-down_scroll.js",
+  "homepage": "https://densz7.github.io/strict",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,13 +16,15 @@
   "bugs": {
     "url": "https://github.com/densz7/template-BEM-/issues"
   },
-  "homepage": "https://github.com/densz7/template-BEM-#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
-    "gulp-stylus": "^2.5.0",
-	"gulp-notify": "^2.2.0",
-	"gulp-plumber": "^1.1.0",
-	"gulp-plumber-error-handler": "^1.0.0"
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-plumber-error-handler": "^1.0.0",
+    "gulp-stylus": "^2.5.0"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
