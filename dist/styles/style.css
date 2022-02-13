@@ -10,7 +10,7 @@ a:focus {
   min-height: 800px;
   text-align: center;
   color: #fff;
-  background-image: url("../../images/banner_bg.jpg");
+  background-image: url("../images/banner_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -261,7 +261,7 @@ a:focus {
 }
 .support {
   min-height: 700px;
-  background-image: url("../../images/support_bg.jpg");
+  background-image: url("../images/support_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

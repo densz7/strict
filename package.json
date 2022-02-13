@@ -5,7 +5,8 @@
   "main": "angle-down_scroll.js",
   "homepage": "https://densz7.github.io/strict",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
